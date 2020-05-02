@@ -33,6 +33,7 @@ import { DiscussionEmbed } from 'disqus-react';
             url: this.props.article.url,
             identifier: this.props.article.id,
             title: this.props.article.title,
+            language: 'zh_TW' //e.g. for Traditional Chinese (Taiwan)	
         }
     }
 />
@@ -40,6 +41,11 @@ import { DiscussionEmbed } from 'disqus-react';
 
 This component is limited to one instance in the DOM at a time and will handle updates to both the `config` and `shortname` props and reload appropriately with the new discussion thread.  
 
+#### `language` configuration
+
+This configuration overrides will load the Disqus embed in different languages on a per-page basis.
+
+Language dode can be found on: https://www.transifex.com/explore/languages/ give that the language is available on https://www.transifex.com/disqus/disqus/
 
 ### CommentCount  
 
