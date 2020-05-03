@@ -45,7 +45,10 @@ This component is limited to one instance in the DOM at a time and will handle u
 
 This configuration overrides will load the Disqus embed in different languages on a per-page basis.
 
-Language dode can be found on: https://www.transifex.com/explore/languages/ give that the language is available on https://www.transifex.com/disqus/disqus/
+- Language code can be found on: https://www.transifex.com/explore/languages/ 
+- The supported languages by disqus are available on https://www.transifex.com/disqus/disqus/
+
+> Note: Depending on the completeness of the translation for a given language, and the release of language support from disqus, the strings displayed on discussion thread UI may not be completely translated.
 
 ### CommentCount  
 
